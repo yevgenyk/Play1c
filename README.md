@@ -31,3 +31,8 @@ Optionally enable buildNative command line building by providing a full path to 
 
 http://codingsimplicity.com/play1c-reusable-hackable-starter-project-for-ios-and-android-native-apps/
 
+### Screenshots
+
+![iOS](https://raw.githubusercontent.com/yevgenyk/Play1c/master/pics/play1c-ios.png)
+
+![Android](https://raw.githubusercontent.com/yevgenyk/Play1c/master/pics/play1c-android.png)
