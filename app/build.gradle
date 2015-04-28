@@ -28,10 +28,13 @@ android {
 
     task buildNative(type: Exec) {
 
-        commandLine '/Users/yevgeny/android-ndk-r10d/ndk-build', ' NDK_DEBUG=1', '-C', file('src/main/jni').absolutePath
+        commandLine 'sh'
+        //commandLine '/Users/yevgeny000/android-ndk-r10d/ndk-build', ' NDK_DEBUG=1', '-C', file('src/main/jni').absolutePath
     }
 
-    tasks.withType(JavaCompile) { compileTask -> compileTask.dependsOn buildNative }
+    tasks.withType(JavaCompile) { 
+        compileTask -> compileTask.dependsOn buildNative 
+    }
 
     dexOptions {
     }
