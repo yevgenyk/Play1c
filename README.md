@@ -27,7 +27,7 @@ in terminal, run ./gradlew assembleDebug
 
 Optionally enable buildNative command line building by providing a full path to ndk-build inside app’s build.gradle
 
-### Less Quick Start
+### Less Quick Start (with pictures)
 
 http://codingsimplicity.com/play1c-reusable-hackable-starter-project-for-ios-and-android-native-apps/
 
